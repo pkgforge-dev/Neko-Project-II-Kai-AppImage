@@ -1,13 +1,13 @@
 [Desktop Entry]
 Type=Application
-Name=xNP21kai IA-32
+Name=Neko Project II kai
 GenericName=PC-9821 Emulator IA-32
 GenericName[ja]=PC-9821エミュレータ IA-32
 Comment=PC-9821 Emulator IA-32
 Comment[ja]=PC-9821エミュレータ IA-32
 Exec=xnp2kai_sdl2
 Icon=np2
-StartupWMClass=
+StartupWMClass=Xnp2kai_sdl2
 Terminal=false
 Categories=Game;Emulator;
 Name[ja]=xNP21kai IA-32
