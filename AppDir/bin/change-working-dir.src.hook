@@ -1,4 +1,7 @@
 #!/bin/false
 dir=${XDG_CONFIG_HOME:-~/.config}/xnp2kai
+dir2=${XDG_CONFIG_HOME:-~/.config}/xnp21kai
 mkdir -p "$dir"
+mkdir -p "$dir2"
 ln -sf "$APPDIR"/share/fonts/OTF/TakaoGothic.ttf "$dir"/default.ttf
+ln -sf "$APPDIR"/share/fonts/OTF/TakaoGothic.ttf "$dir2"/default.ttf
