@@ -15,6 +15,8 @@ export DEPLOY_OPENGL=1
 quick-sharun /usr/bin/xnp21kai_sdl2 /usr/bin/xnp2kai_sdl2 /usr/bin/xnp21kai_HAXM_sdl2
 
 # Additional changes can be done in between here
+mkdir -p ./AppDir/share/fonts/TTF
+cp -v /usr/share/fonts/TTF/TakaoGothic.ttf ./AppDir/share/fonts/TTF
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
