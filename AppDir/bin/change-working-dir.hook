@@ -1,0 +1,3 @@
+#!/bin/sh
+dir=$CONFIGDIR/xnp21kai
+mkdir -p "$dir"
