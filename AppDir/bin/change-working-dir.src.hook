@@ -1,4 +1,4 @@
-#!/bin/false
+#!/bin/sh
 dir="${XDG_CONFIG_HOME:-$HOME/.config}"
 for d in xnp2kai xnp21kai; do
     target_dir="$dir/$d"
