@@ -16,3 +16,7 @@ quick-sharun /usr/bin/xnp21kai_sdl2 /usr/bin/xnp2kai_sdl2 /usr/bin/xnp21kai_HAXM
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
+
+# Test the app for 12 seconds, if the app normally quits before that time
+# then skip this or check if some flag can be passed that makes it stay open
+quick-sharun --simple-test ./dist/*.AppImage
