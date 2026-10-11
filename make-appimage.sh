@@ -7,7 +7,7 @@ export ARCH
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=/usr/share/icons/hicolor/scalable/apps/np2.svg
+export ICON=https://raw.githubusercontent.com/AZO234/NP2kai/5939e0c6d5985c4c08fc70f289a83290e5d3e6f7/misc/np2.svg
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
