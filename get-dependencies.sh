@@ -37,7 +37,6 @@ export NP2KAI_HASH="$(git rev-parse --short HEAD)"
 cmake -S ./ -B build \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_BUILD_TYPE=Release \
-    -DBUILD_X=ON \
     -DBUILD_SDL=ON \
     -DBUILD_I286=OFF \
     -DBUILD_HAXM=ON \
