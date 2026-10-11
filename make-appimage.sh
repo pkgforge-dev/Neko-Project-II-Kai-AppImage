@@ -11,8 +11,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/np2.svg
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-#quick-sharun /usr/bin/xnp21kai_sdl2 /usr/bin/xnp2kai_sdl2 /usr/bin/xnp21kai_HAXM_sdl2
-quick-sharun /usr/bin/wxnp21kai
+quick-sharun /usr/bin/wxnp21kai /usr/bin/sdlnp21kai
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
